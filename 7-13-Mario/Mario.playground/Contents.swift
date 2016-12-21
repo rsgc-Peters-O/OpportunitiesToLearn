@@ -10,8 +10,6 @@
  We will go through this together.
  */
 
-// Add your code below
-
 /*:
  # Mario
  
@@ -28,22 +26,46 @@
 
 func levelCost(heights: [Int], maxJump: Int) -> Int
 
+var totalEnergy = 0
+var height = 0
+
 var cordinets = 0
 
-for a in stride(from: 0 through: heights.count, by: 1) {
-    if (a < heights.count - 1) {
-        if (heights [a] == heights [a + 1]) {
-            cordinets += 1
-            
-        } else if (heights [a] < heights [a + 1] && (heights [ a+ 1] = heights [a]) <= maxJump) {
-            points += addedPoints
-            
-        }
-        
-    }
-    
-    return cordinets
-}
+for height 
+
+levelCost(heights: [1, 1, 2, 2, 5, 2, 1, 1], maxJump: 3)
+
+
 
 
 // Did not know the rest of the code, but I knew it ended with the return function
+
+return cordinets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

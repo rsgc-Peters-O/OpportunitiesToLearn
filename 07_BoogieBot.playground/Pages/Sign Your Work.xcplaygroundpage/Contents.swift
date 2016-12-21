@@ -10,20 +10,35 @@
  And a subtitle. This is a chance to add your name:
  
  `setBotSubtitle("By The Boogiemaster")`
-*/
+ */
 startBot()
-setBotTitle("Sunday Night Fever")
-setBotSubtitle("By John Showboater")
+setBotTitle("")
+setBotSubtitle("By Oscar Peters")
 
 func doTheDisco() {
     fabulize()
     leftArmUp()
     leftArmDown()
+    rightArmUp()
+    rightArmDown()
+    fabulize()
+    fabulize()
+    fabulize()
+    fabulize()
+    rightArmUp()
+    fabulize()
+    rightArmUp()
+    rightArmDown()
+    leftArmUp()
+    leftArmDown()
+    rightArmUp()
+    
 }
 doTheDisco()
 doTheDisco()
 doTheDisco()
 doTheDisco()
+
 //: - callout(Exercise): Set your own title and subtitle for your BoogieBot dance.
 //:
 //: Next, learn how to share the dances you make with your friends.

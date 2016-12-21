@@ -25,3 +25,4 @@
  
  [Previous](@previous)  |  page 4 of 13  |  [Next: Routines](@next)
  */
+leftArmUp()
