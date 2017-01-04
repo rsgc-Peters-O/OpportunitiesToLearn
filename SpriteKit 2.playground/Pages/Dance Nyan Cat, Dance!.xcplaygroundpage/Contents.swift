@@ -64,9 +64,7 @@ let rainbowColors = [
     SKColor(red: 255/255, green: 244/255, blue: 5/255, alpha: 1),
     SKColor(red: 51/255, green: 234/255, blue: 5/255, alpha: 1),
     SKColor(red: 8/255, green: 163/255, blue: 255/255, alpha: 1),
-    SKColor(red: 8122255, green: 85/255, blue: 255/255, alpha: 1),
-    
-
+    SKColor(red: 8122255, green: 85/255, blue: 255/255, alpha: 1)
 ]
 
 var yMultiplier : CGFloat = 0.5
@@ -82,7 +80,7 @@ for rainbowColor in rainbowColors {
         )
     )
     yMultiplier -= 0.15
-}
+
 
 //: Make Nyan Cat even happier!
 let actionPlaySound = SKAction.playSoundFileNamed("nyan-cat-tune.mp3", waitForCompletion: false)
@@ -95,4 +93,4 @@ view.presentScene(scene)
 PlaygroundPage.current.liveView = view
 
 //: OK I'm done.
-
+}
